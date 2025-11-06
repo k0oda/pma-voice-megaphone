@@ -1,0 +1,10 @@
+# Example server.cfg configuration for pma-voice-megaphone module
+
+# Load resources in correct order
+ensure pma-voice
+ensure pma-voice-megaphone
+
+# PMA-Voice required settings
+setr voice_useNativeAudio true
+setr voice_useSendingRangeOnly true
+setr voice_enableSubmix 1
